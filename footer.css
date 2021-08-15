@@ -1,0 +1,28 @@
+.footer {
+    padding: 50px;
+    background-color: #200a0a;
+}
+
+.footer_shop {
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    /* max-width: 150px;   */
+}
+
+.footer_insta {
+    margin: 3%;
+    display: block;
+    float: left;
+    /* width: 58px; */
+
+}
+
+.footer_text {
+    display: inline-block;
+    text-align: right;
+    font-size: 13px;
+    color: white;
+    font-family: YuMincho;
+}
+

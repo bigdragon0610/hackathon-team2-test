@@ -1,28 +1,38 @@
 .footer {
-    padding: 50px;
     background-color: #200a0a;
+    width: 100%;
+
+}
+
+.links {
+    display: flex;
 }
 
 .footer_shop {
-    padding: 20px;
+    padding: 2%;
     display: inline-block;
-    float: left;
-    /* max-width: 150px;   */
+    max-width: 150px;  
 }
 
-.footer_insta {
-    margin: 3%;
+.footer_insta_image {
+    margin: 50%;
     display: block;
-    float: left;
-    /* width: 30px; */
+    max-width: 58px;
 
 }
 
 .footer_text {
     display: inline-block;
-    text-align: right;
     font-size: 13px;
     color: white;
     font-family: YuMincho;
 }
 
+
+#pagetop{
+    position:fixed;
+    right:10px;
+    bottom:0px;
+    cursor:pointer;
+    z-index: 10;
+}

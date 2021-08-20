@@ -1,13 +1,9 @@
-.slide-wrapper {
-    display: block;
-
-}
-
 .swiper-container {
     display: block;
     width: 100%;
     height: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .slide {
@@ -22,4 +18,18 @@
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+#swiper01 .swiper-button-prev, 
+#swiper01 .swiper-button-next {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    top: 50%;
+}
+
+#swiper01 .swiper-button-prev.hover, 
+#swiper01 .swiper-button-next.hover {
+  opacity: 1;
 }

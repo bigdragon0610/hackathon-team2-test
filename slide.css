@@ -24,18 +24,16 @@
     opacity: 1;
 }
 
-.swiper-pagination-bullet {
+#swiper01 .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
     background-color: #11ffee00;
     opacity: 1;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.15em;
+    border: 0.15em solid white;
     box-sizing: border-box;
 }
 
-.swiper-pagination-bullet-active {
+#swiper01 .swiper-pagination-bullet-active {
     background-color: white;
 }
 
@@ -59,4 +57,25 @@
         width: 17px;
         height: 17px;
     }
+}
+
+#swiper02 .topic-slide {
+    min-width: 250px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    margin: 0 25px;
+    text-align: center;
+    object-fit: cover;
+}
+
+#swiper02 img {
+    width: 200px;
+    height: 200px;
+    padding: 20px 25px 0;
+}
+
+#swiper02 .swiper-button-prev, #swiper02 .swiper-button-next {
+    color: #cccccc;
+    position: absolute;
+    top: 50%;
 }

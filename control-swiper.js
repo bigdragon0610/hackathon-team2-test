@@ -8,6 +8,11 @@ const swiper = new Swiper('.swiper-container', {
         delay: 4000,
         disableOnInteraction: true,
     },
+    pagination: {
+        el: '.swiper-pagination',  //ページネーションの要素のセレクタ
+        type: 'bullets',  //ページネーションのタイプ
+        clickable: 'true',
+      },
 });
 
 //要素取得

@@ -20,8 +20,7 @@
     height: auto;
 }
 
-#swiper01 .swiper-button-prev, 
-#swiper01 .swiper-button-next {
+#swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
     color: white;
     opacity: 0;
     transition: opacity 0.5s;
@@ -29,7 +28,45 @@
     top: 50%;
 }
 
-#swiper01 .swiper-button-prev.hover, 
-#swiper01 .swiper-button-next.hover {
-  opacity: 1;
+#swiper01 .swiper-button-prev.hover, #swiper01 .swiper-button-next.hover {
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #11ffee00;
+    opacity: 1;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.15em;
+    box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    #swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    #swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination-bullet {
+        width: 17px;
+        height: 17px;
+    }
 }

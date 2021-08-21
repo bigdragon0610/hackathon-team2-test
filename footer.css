@@ -36,3 +36,26 @@
     cursor:pointer;
     z-index: 10;
 }
+
+@media screen and (max-width:480px) {
+ 
+	/*画面サイズが480px以下の場合ここの記述が適用される*/
+     .small_shop{
+        padding: 10%;
+        display: inline-block;
+        max-width: 100px;  
+    }
+
+
+
+    .footer_insta_image {
+        margin: 30%;
+        padding: 10%;
+        /* display: inline-block; */
+        max-width: 40px;
+    
+    }
+
+ 
+}
+

@@ -59,11 +59,22 @@
     }
 }
 
+.swiper-parent {
+	position: relative;
+    height: 302px;
+}
+
+#swiper02 {
+    position: absolute;
+    width: calc(100% - 100px);
+    transform: translateX(55px);
+}
+
 #swiper02 .topic-slide {
     min-width: 250px;
     height: 300px;
     border: 1px solid #cccccc;
-    margin: 0 25px;
+    margin: 0;
     text-align: center;
     object-fit: cover;
 }
@@ -74,8 +85,9 @@
     padding: 20px 25px 0;
 }
 
-#swiper02 .swiper-button-prev, #swiper02 .swiper-button-next {
+.swiper-parent .swiper-button-prev, .swiper-parent .swiper-button-next {
     color: #cccccc;
     position: absolute;
-    top: 50%;
+    top: calc((100% - 50px) * 0.5);
+    transform: translateX(10px);
 }

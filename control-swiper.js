@@ -48,6 +48,7 @@ container.addEventListener('mouseleave', () => {
 
 const swiper02 = new Swiper('#swiper02', {
     slidesPerView: 3,
+    spaceBetween: 50,
     centeredSlides: true,
     navigation: {
         nextEl: '.swiper-button-next',

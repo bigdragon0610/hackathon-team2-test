@@ -1,25 +1,93 @@
-.slide-wrapper {
-    display: block;
-
-}
-
 .swiper-container {
     display: block;
     width: 100%;
     height: auto;
     overflow: hidden;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 0;
+    position: relative;
 }
 
 .slide-image {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+#swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    top: 50%;
+}
+
+#swiper01 .swiper-button-prev.hover, #swiper01 .swiper-button-next.hover {
+    opacity: 1;
+}
+
+#swiper01 .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #11ffee00;
+    opacity: 1;
+    border: 0.15em solid white;
+    box-sizing: border-box;
+}
+
+#swiper01 .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    #swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
+        display: none;
+    }
+    .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    #swiper01 .swiper-button-prev, #swiper01 .swiper-button-next {
+        display: none;
+    }
+    .swiper-pagination-bullet {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+.swiper-parent {
+	position: relative;
+    height: 302px;
+}
+
+#swiper02 {
+    position: absolute;
+    width: calc(100% - 100px);
+    transform: translateX(55px);
+}
+
+#swiper02 .topic-slide {
+    min-width: 250px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    margin: 0;
+    text-align: center;
+    object-fit: cover;
+}
+
+#swiper02 img {
+    width: 200px;
+    height: 200px;
+    padding: 20px 25px 0;
+}
+
+.swiper-parent .swiper-button-prev, .swiper-parent .swiper-button-next {
+    color: #cccccc;
+    position: absolute;
+    top: calc((100% - 50px) * 0.5);
+    transform: translateX(10px);
 }

@@ -19,7 +19,7 @@ h3 {
     color: #917700;
     font-size: 17px;
     text-align: center;
-    font-family: "游明朝", "Yu Mincho", "YuMincho"
+    font-family: "游明朝", "Yu Mincho", "YuMincho";
 }
 
 @media screen and (max-width: 959px) {

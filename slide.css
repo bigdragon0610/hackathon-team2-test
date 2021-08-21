@@ -77,6 +77,8 @@
     margin: 0;
     text-align: center;
     object-fit: cover;
+    box-sizing: border-box;
+    position: relative;
 }
 
 #swiper02 img {
@@ -90,4 +92,31 @@
     position: absolute;
     top: calc((100% - 50px) * 0.5);
     transform: translateX(10px);
+}
+
+p.name {
+    font-family:  "游明朝", "Yu Mincho", "YuMincho";
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p.date {
+    font-family:  "游明朝", "Yu Mincho", "YuMincho";
+    font-size: 14px;
+    color: #333333;
+    margin: 5px 0;
+}
+
+span.arrow-button {
+    width: 19px;
+    height: 19px;
+    background-color: #333333;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(100% - 24px);
+    left: calc(100% - 24px);
+    text-align: center;
 }

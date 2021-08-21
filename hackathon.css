@@ -1,6 +1,6 @@
 body {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 /* added by jin */
@@ -30,149 +30,142 @@ body {
 /* jin kokomade */
 
 @media screen and (min-width: 481px) {
-    .lineUpBox {
-        display: flex;
-        flex-wrap: wrap;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-    }
-    .title {
-        margin-right: auto;
-        margin-left: auto;
-        width: 135px;
-        height: 49px;
-    }
-    .pictureBox {
-        width: 550px;
-        height: 250px;
-        margin-top: 10px;
-        margin: 25px 25px 25px 25px;
-        position: relative;
-    }
-    .picture {
-        width: 550px;
-        height: 250px;
-        /* padding-top: 10px;
-    padding-right: 10px; */
-        cursor: pointer;
-    }
-    /* %表記にしたら画像のサイズがページサイズによってかわる？ */
-    .shopServicePicture {
-        width: 350px;
-        height: 250px;
-        cursor: pointer;
-    }
-    .PicBox {
-        width: 350px;
-        height: 250px;
-        margin: 25px 25px 25px 25px;
-        position: relative;
-    }
-    .letter {
-        margin: 0;
-        position: absolute;
-        bottom: 12px;
-        left: 12px;
-        color: white;
-        font-family: '游明朝';
-        font-size: 19px;
-        text-shadow: 1px 2px black;
-    }
-    .shopLetter {
-        margin: 0;
-        position: absolute;
-        bottom: 12px;
-        left: 12px;
-        color: white;
-        font-family: '游明朝';
-        font-size: 19px;
-        text-shadow: 1px 2px black;
-    }
-    .explanation {
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 25px;
-        font-family: '游明朝';
-        color: #707070;
-        width: 720px;
-        text-align: left;
-        font-size: 16px;
-    }
+  .lineUpBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .title {
+    margin-right: auto;
+    margin-left: auto;
+    width: 135px;
+    height: 49px;
+  }
+  .pictureBox {
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+    margin: 25px 25px 25px 25px;
+    position: relative;
+  }
+  .picture {
+    width: 550px;
+    height: 250px;
+    cursor: pointer;
+  }
+
+  .shopServicePicture {
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+  }
+  .PicBox {
+    width: 350px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    position: relative;
+  }
+  .letter {
+    margin: 0;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    color: white;
+    font-family: "游明朝";
+    font-size: 19px;
+    text-shadow: 1px 2px black;
+  }
+  .shopLetter {
+    margin: 0;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    color: white;
+    font-family: "游明朝";
+    font-size: 19px;
+    text-shadow: 1px 2px black;
+  }
+  .explanation {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 25px;
+    font-family: "游明朝";
+    color: #707070;
+    width: 720px;
+    text-align: left;
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .lineUpBox {
-        display: flex;
-        flex-wrap: wrap;
-        width: 320px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-    }
-    .title {
-        margin-right: auto;
-        margin-left: auto;
-        width: auto;
-        height: 34px;
-    }
-    .pictureBox {
-        width: 300px;
-        height: 182px;
-        margin-top: 10px;
-        position: relative;
-    }
-    .picture {
-        width: 300px;
-        height: 182px;
-        /* padding-top: 10px;
-         padding-right: 10px; */
-        cursor: pointer;
-    }
-    .shopServicePicture {
-        width: 300px;
-        height: 240px;
-        cursor: pointer;
-    }
-    .PicBox {
-        width: 300px;
-        height: 240px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        /* margin: 25px 25px 25px 25px; */
-        position: relative;
-    }
-    .letter {
-        margin: 0;
-        position: absolute;
-        bottom: 12px;
-        left: 12px;
-        color: white;
-        font-family: '游明朝';
-        font-size: 18px;
-        text-shadow: 1px 2px black;
-    }
-    .explanation {
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 20px;
-        font-family: '游明朝';
-        color: #707070;
-        width: 80%;
-        text-align: left;
-        font-size: 14px;
-    }
-}
+  .lineUpBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .title {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: 34px;
+  }
+  .pictureBox {
+    width: 300px;
+    height: 182px;
+    margin-top: 10px;
+    position: relative;
+  }
+  .picture {
+    width: 300px;
+    height: 182px;
+    cursor: pointer;
+  }
 
+  .shopServicePicture {
+    width: 300px;
+    height: 240px;
+    cursor: pointer;
+  }
+  .PicBox {
+    width: 300px;
+    height: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .letter {
+    margin: 0;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    color: white;
+    font-family: "游明朝";
+    font-size: 18px;
+    text-shadow: 1px 2px black;
+  }
+
+  .explanation {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    font-family: "游明朝";
+    color: #707070;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+  }
+}
 .backColor {
-    background-color: black;
+  background-color: black;
 }
-
-/* .background {
-    opacity: 0.7;
-} */
 
 .backColor img:hover {
-    opacity: 0.7;
+  opacity: 0.7;
+  transition: opacity 1s;
 }

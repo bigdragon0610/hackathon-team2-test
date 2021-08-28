@@ -1,6 +1,7 @@
-.logo{
-    : left;
+.header{
+   position: fixed;
 }
+
 .header-box{
     display: inline-block;
 }
@@ -8,10 +9,7 @@
   display: none;
 }
 
-* {
-    margin: 0;
-    padding: 0; 
-   }
+
    ul {
      list-style:none;
    }
@@ -21,8 +19,6 @@
    .header__float {
      overflow: hidden;
      clear: both;
-   　/*縦中央揃いにするためにヘッダーの高さを指定する*/
-     
    }
    .logo{
      float: left;

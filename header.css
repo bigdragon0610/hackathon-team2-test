@@ -1,0 +1,36 @@
+.logo{
+    : left;
+}
+.header-box{
+    display: inline-block;
+}
+.header-lineup-container{
+  display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+   }
+   ul {
+     list-style:none;
+   }
+   div {
+     padding: 0 30px;
+   }
+   .header__float {
+     overflow: hidden;
+     clear: both;
+   　/*縦中央揃いにするためにヘッダーの高さを指定する*/
+     
+   }
+   .logo{
+     float: left;
+   }
+   .header__float div {
+     float: right;
+   }
+   .header__float {
+     float: left;
+     margin-left: 20px;
+   }

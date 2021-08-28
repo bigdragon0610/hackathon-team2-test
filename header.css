@@ -1,0 +1,32 @@
+.header{
+   position: fixed;
+}
+
+.header-box{
+    display: inline-block;
+}
+.header-lineup-container{
+  display: none;
+}
+
+
+   ul {
+     list-style:none;
+   }
+   div {
+     padding: 0 30px;
+   }
+   .header__float {
+     overflow: hidden;
+     clear: both;
+   }
+   .logo{
+     float: left;
+   }
+   .header__float div {
+     float: right;
+   }
+   .header__float {
+     float: left;
+     margin-left: 20px;
+   }

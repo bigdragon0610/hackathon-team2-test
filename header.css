@@ -1,7 +1,14 @@
-.header{
-   position: fixed;
+/* header{
+ position: fixed; 
 }
 
+.header_top{
+    display: flex;
+}
+
+.header_menus{
+    width: 60px;
+}
 .header-box{
     display: inline-block;
 }
@@ -19,7 +26,7 @@
    .header__float {
      overflow: hidden;
      clear: both;
-   }
+   } 
    .logo{
      float: left;
    }
@@ -29,4 +36,15 @@
    .header__float {
      float: left;
      margin-left: 20px;
+   } */
+
+   header{
+       position: fixed;
+   }
+
+   .header_top{
+       display: inline-flex;
+   }
+   .header_menus{
+       display: inline-block;
    }
